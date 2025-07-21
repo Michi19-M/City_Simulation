@@ -1,0 +1,177 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30154.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x007DD1C0 -il C:\\Users\\Michi\\AppData\\Local\\Temp\\_CL_acb3cc76ast -typedil -f PanelBuilding.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930154 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\PanelBuilding.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\University\\OOP_2024-2025\\Project - City_Simulation -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\University\\OOP_2024-2025\\Project - City_Simulation\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I D:\\University\\OOP_2024-2025\\Project - City_Simulation\\Include\\um -I D:\\University\\OOP_2024-2025\\Project - City_Simulation\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/unemployed.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "28aaa8e746a834f12ac23d7f8aa1a6d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/unemployed.h"
+          },
+          "hashes": {
+            "md5": "19d4bcd628419179bd89864667759d03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/citizen.h"
+          },
+          "hashes": {
+            "md5": "c07a4329a7fb7506161140cc60b8f063"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/building.h"
+          },
+          "hashes": {
+            "md5": "f212b299444cf55469721dbe06b63b22"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/teacher.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "4a8c527f50816c9fc5302140a51cc404"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/teacher.h"
+          },
+          "hashes": {
+            "md5": "bdd3c44b9eec805a7f3b291268abc76b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/University/OOP_2024-2025/Project - City_Simulation/SimulationGenerator.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "cc3b647aebd5dc27a6ca92509acbdb76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/simulationgenerator.h"
+          },
+          "hashes": {
+            "md5": "291022bbbf55b961f838d2acb1ea52a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/date.h"
+          },
+          "hashes": {
+            "md5": "bd183c2f749f8a6b64183e84cff82f93"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/city.h"
+          },
+          "hashes": {
+            "md5": "bb77c75a5debcc13f6f6db9bd50b053e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/panelbuilding.h"
+          },
+          "hashes": {
+            "md5": "4c3d05ba79a20414821391232496a8b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/modernbuilding.h"
+          },
+          "hashes": {
+            "md5": "5b6d71857621fbce1b66419b5d36b21e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/dormitory.h"
+          },
+          "hashes": {
+            "md5": "a647c7693a73d4dea07f244efe34f10f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/programmer.h"
+          },
+          "hashes": {
+            "md5": "50be0e918c076df9a396d860f205fd91"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/miner.h"
+          },
+          "hashes": {
+            "md5": "6b361428bfc98ae3caf1387941b05698"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/programmer.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d981079fa6c03ae7e66665a7fbd9fada"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/oop_2024-2025/project - city_simulation/panelbuilding.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "a8bfae4fa118be979e08abfc46b32d0a"
+          }
+        }
+      ]
+    }
+  ]
+}
