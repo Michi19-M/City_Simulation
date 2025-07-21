@@ -1,9 +1,4 @@
-# Ignore everything
 *
-
-# Don't ignore these file types
 !*.cpp
 !*.h
-
-# Don't ignore this file itself
 !.gitignore
