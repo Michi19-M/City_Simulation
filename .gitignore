@@ -1,6 +1,4 @@
 *
 !*.cpp
 !*.h
-.vs/
-Debug/
 !.gitignore
