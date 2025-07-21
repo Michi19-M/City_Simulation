@@ -113,17 +113,17 @@ CitizenType setCitizenTypeFromString(const std::string& str)
 {
 	CitizenType type;
 	if (str == "Miner") {
-		type = CitizenType::Miner;
+		return type = CitizenType::Miner;
 	}
-	else if (str == "Programmer")
+	if (str == "Programmer")
 	{
-		type = CitizenType::Programmer;
+		return type = CitizenType::Programmer;
 	}
-	else if (str == "Teacher") {
-		type = CitizenType::Teacher;
+	if (str == "Teacher") {
+		return type = CitizenType::Teacher;
 	}
-	else if (str == "Unemployed") {
-		type = CitizenType::Unemployed;
+	if (str == "Unemployed") {
+		return type = CitizenType::Unemployed;
 	}
 	throw std::invalid_argument("Invalid citizen job\n");
 }
